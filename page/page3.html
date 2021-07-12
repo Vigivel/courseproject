@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Give</title>
+    <link rel="stylesheet"   href="../css/style.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header_nav">
+        <nav class="nav">
+            <a class="nav_link" href="../index.html">index</a>
+            <a class="nav_link" href="page1.html">page 1</a>
+            <a class="nav_link" href="page2.html">page 2</a>
+            <a class="nav_link" href="page3.html">page 3</a>
+            <a class="nav_link" href="page4.html">page 4</a>
+            <a class="nav_link" href="page5.html">page 5</a>
+        </nav>
+        </div>
+    </div>
+    <hr id="headhr">
+</header>
+<div class="main">
+    <div class="container">
+        <div class="main_block">
+            <p>Составим уравнения числа атомов каждого элемента, участвующего в химической реакции:</p>
+        <p class="border_text">Для <b>Fe</b>: x<sup>1</sup>*1=x<sup>3</sup>*3</p>
+        <p class="border_text">Для <b>Cl</b>: x<sup>1</sup>*2=x<sup>4</sup>*1</p>
+        <p class="border_text">Для <b>Na</b>: x<sup>2</sup>*3=x<sup>4</sup>*1</p>
+        <p class="border_text">Для <b>P</b>: x<sup>2</sup>*1=x<sup>3</sup>*2</p>
+        <p class="border_text">Для <b>O</b>: x<sup>2</sup>*4=x<sup>3</sup>*8</p>
+        <p>Запишем их в виде общей системы:</p>
+        <p>x<sup>1</sup>-3<sup>x</sup>-3=0; <br>
+            2<sup>1</sup>-x<sup>4</sup>=0; <br>
+            3x<sup>2</sup>-x<sup>4</sup>=0;  <br>
+            x<sup>2</sup>-2x<sup>3</sup>=0; <br>
+            4x<sup>2</sup>-8x<sup></sup>3=0;</p> <br>
+
+        <p>В данном случае имеем <i>пять уравнений</i> для четырех неизвестных, причем пятое можно получить умножением четвертого на четыре, так что его можно смело отбросить.</p>
+        <p>Эту систему можно решить методом <mark>Гаусса</mark>. Собственно, не всегда будет так везти, что число уравнений будет совпадать с числом неизвестных. Однако прелесть метода Гаусса в том, что он как раз и позволяет решать системы с любым числом уравнений и неизвестных. Специально для этого был написан калькулятор Решение системы линейных уравнений методом Гаусса с нахождением общего решения, который и используется при уравнивании химических реакций.
+        То есть калькулятор ниже разбирает формулу реакции, составляет СЛАУ и передает калькулятору по ссылке выше, решающему СЛАУ методом Гаусса. Решение потом используется для отображения сбалансированного уравнения.</p>
+        <p><b>Химические элементы</b> следует писать так, как они написаны в таблице Менделеева, т. е. учитывать большие и маленькие буквы (Na3PO4 — правильно, na3po4 — неправильно).</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
